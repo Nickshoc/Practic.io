@@ -636,14 +636,15 @@
     
         body::before {
             content: '';
-            position: fixed;
-            top: 0;
+            position: relative;
+            top: bottom;
             left: 0;
             width: 100%;
             height: 100vh;
             z-index: -1;
         background-image: url('https://nickshoc.github.io/Practic.io/images/sakura_bg.png');
         background-size: cover;
+                scrollbar-gutter: stable both-edges;
             }
         }
         body {
