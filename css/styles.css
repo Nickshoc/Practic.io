@@ -645,9 +645,7 @@
         z-index: -1;
         background-image: url('https://nickshoc.github.io/Practic.io/images/sakura_bg.png');
         background-size: cover;
-        /*scrollbar-gutter: stable both-edges;*/
-        overflow-y: auto;
-        overflow-x: hidden;
+        scrollbar-gutter: stable both-edges;
             }
         }
         body {
