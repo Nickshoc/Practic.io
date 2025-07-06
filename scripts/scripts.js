@@ -37,7 +37,7 @@
             document.querySelector('#settings input[type="text"]').value = userProfile.name;
             document.querySelector('#settings input[type="email"]').value = userProfile.email;
             document.querySelector('#settings input[type="tel"]').value = userProfile.phone;
-            document.querySelector('#settings input[type="text"][value="ул. Пушкина, д. 10, кв. 25"]').textContent = userProfile.address;
+            document.querySelector('#settings input[type="text"][value="ул. Генсокийская, д. 10, кв. 5"]').textContent = userProfile.address;
             
             // Обновляем отображение профиля
             document.querySelector('.profile-name').textContent = userProfile.name;
@@ -84,7 +84,7 @@
             const name = document.querySelector('#settings input[type="text"]').value.trim();
             const email = document.querySelector('#settings input[type="email"]').value.trim();
             const phone = document.querySelector('#settings input[type="tel"]').value.trim();
-            const address = document.querySelector('#settings input[type="text"][value="ул. Пушкина, д. 10, кв. 25"]').value.trim();
+            const address = document.querySelector('#settings input[type="text"][value="ул. Генсокийская, д. 10, кв. 5"]').value.trim();
             const password = document.querySelector('#settings input[type="password"]').value;
             
             // Валидация
