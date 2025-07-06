@@ -646,6 +646,7 @@
         z-index: -1;
         pointer-events: none;
         transform: none;
+        will-change: auto;
         }
         }
 }
