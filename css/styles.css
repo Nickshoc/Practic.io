@@ -621,7 +621,8 @@
         body 
         {
         background-attachment: scroll; /* Убираем фиксированный фон на мобильных */
-        background-size: contain;
+        background-size: auto; 
+        background-repeat: repeat;
         }
         }
 
