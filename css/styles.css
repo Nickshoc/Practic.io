@@ -642,6 +642,7 @@
         bottom: 0; 
         background-image: url('https://nickshoc.github.io/Practic.io/images/sakura_bg.png');
         background-size: cover;
+        background-attachment: initial;
         background-position: center top;
         background-repeat: no-repeat;
         z-index: -1;
