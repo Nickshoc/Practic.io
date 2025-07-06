@@ -626,11 +626,25 @@
         }
         @media (max-width: 768px) and (orientation: portrait) {
         body {
-        background-size: 100% auto; /* Ширина 100%, высота автоматически */
-        background-attachment: scroll; /* Отключаем фиксированный фон */
-        background-size: 300px 1000px; /* Размер повторяющегося элемента */
-        background-repeat: repeat;
-        
-    }
+        position: relative;
+        background: linear-gradient(to bottom, 
+                  rgba(255, 255, 255, 0.9) 0%, 
+                  rgba(240, 128, 145, 0.484) 100%);
+            }
+    
+        body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/sakura_bg.png');
+        background-size: cover;
+        background-position: center top;
+        z-index: -1;
+        pointer-events: none;
+            }
         }
+}
 
