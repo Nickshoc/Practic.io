@@ -620,7 +620,9 @@
         @media (max-width: 768px) {
         body 
         {
-        background-attachment: scroll; /* Убираем фиксированный фон на мобильных */
+        background-size: auto; 
+        background-repeat: repeat;    
+        background-attachment: scroll; /* Убираем фиксированный фон на мобильных *
         }
         @media (max-width: 768px) and (orientation: portrait) {
         body {
