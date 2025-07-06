@@ -624,5 +624,15 @@
         background-size: auto; 
         background-repeat: repeat;
         }
+        @media (max-width: 768px) and (orientation: portrait) {
+        body {
+        background-size: 100% auto; /* Ширина 100%, высота автоматически */
+        background-repeat: repeat-y; /* Повторять только по вертикали */
+        background-attachment: scroll; /* Отключаем фиксированный фон */
+        
+        /* Альтернативный вариант с масштабированием */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+    }
         }
 
