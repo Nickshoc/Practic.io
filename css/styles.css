@@ -624,7 +624,7 @@
         background-size: auto; 
         background-repeat: repeat;
         }
-@media (max-width: 768px) and (orientation: portrait) {
+        @media (max-width: 768px) and (orientation: portrait) {
         body {
         position: relative;
         background: linear-gradient(to bottom, 
