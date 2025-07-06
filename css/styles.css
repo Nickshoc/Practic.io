@@ -635,19 +635,20 @@
             }
     
         body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 200%;
-        height: 200%;
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
         background-image: url('https://nickshoc.github.io/Practic.io/images/sakura_bg.png');
         background-size: cover;
-        background-position: center top;
-        z-index: -1;
-        pointer-events: none;
-        overflow-y: scroll;
             }
         }
+        body {
+    --vh: 1vh;
+    min-height: calc(100 * var(--vh));
+}
 }
 
