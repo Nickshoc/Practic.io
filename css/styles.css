@@ -635,6 +635,12 @@
         }
     
         body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0; 
+        bottom: 0; 
         background-image: url('https://nickshoc.github.io/Practic.io/images/sakura_bg.png');
         background-size: cover;
         background-attachment: initial;
